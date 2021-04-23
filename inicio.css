@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../https://www.ismos.es/wp-content/uploads/2018/11/impresionismo.jpg) no-repeat center top;
+    background: url(https://www.ismos.es/wp-content/uploads/2018/11/impresionismo.jpg) no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
