@@ -11,6 +11,17 @@ body {
 	height: 500px;
 	width: 100%;
 }
+
+.mapa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapa img{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+}
   
   .login-box {
     width: 320px;
