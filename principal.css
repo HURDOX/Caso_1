@@ -16,6 +16,17 @@
 	width: 100%;
 }
 
+.mapa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapa img{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+}
+
 
 body{
     font-family: 'Inter', sans-serif;
