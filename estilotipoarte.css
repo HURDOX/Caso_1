@@ -11,6 +11,11 @@
     --height-shape:18em; 
 }
 
+#map {
+	height: 500px;
+	width: 100%;
+}
+
 body{
     font-family: 'Inter', sans-serif;
     background-color: #E5E5F7;
