@@ -6,6 +6,11 @@ body{
     font-size: monospace;
 }
 
+#map {
+	height: 500px;
+	width: 100%;
+}
+
 form{
     width: 450px;
     margin: auto;
