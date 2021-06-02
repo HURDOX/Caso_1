@@ -11,6 +11,17 @@ body{
 	width: 100%;
 }
 
+.mapa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapa img{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+}
+
 form{
     width: 450px;
     margin: auto;
