@@ -225,7 +225,7 @@ body{
         height: 100%;
         margin-left: 10px;
         padding: 25px;
-    }
+    	}
     :root{
         --height-shape:14em;
     }
@@ -289,7 +289,7 @@ body{
         height: 100%;
         margin-left: 150px;
         padding: 25px;
-    }
+    	}
     :root{
         --padding-btn: 20px 0;
     }
