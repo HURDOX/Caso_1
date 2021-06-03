@@ -6,24 +6,17 @@ body{
     font-size: monospace;
 }
 
-#map {
-	height: 500px;
-	width: 100%;
+.form-label{
+    color: #fff;
+    margin: auto;
 }
 
-.mapa{
-    display: flex;
-    justify-content: space-between;
-}
-
-.mapa img{
-    width: 500px;
-    height: 500px;
-    margin-left: 50px;
+.formu{
+    margin: auto;
 }
 
 form{
-    width: 450px;
+    width: 500px;
     margin: auto;
     background: rgba(56, 54, 65, 0.4);
     padding: 10px 20px;
@@ -54,14 +47,21 @@ textarea{
     max-width: 100%;
 }
 
-#boton{
-    background: #121416;
+.col-12{
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000000;
     color: #fff;
-    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
 }
 
-#boton:hover{
-    cursor: pointer;
+.btn{
+    color: #fff;
+    background-color: #000000;
 }
 
 @media screen and (max-width:480px) {
