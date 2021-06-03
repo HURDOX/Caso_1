@@ -36,6 +36,12 @@ body{
     background-position: 0 0,14px 14px;
 }
 
+.usuario{
+    font-family: 'Inter', sans-serif;
+    color: #808080;
+    padding: 9px;
+}
+
 .container{
     width: var(--width-container);
     max-width: var(--max-width-container);
