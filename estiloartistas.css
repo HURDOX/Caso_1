@@ -27,12 +27,6 @@
     margin-left: 50px;
 }
 
-.usuario{
-    font-family: 'Inter', sans-serif;
-    color: #808080;
-    padding: 9px;
-}
-
 body{
     font-family: 'Inter', sans-serif;
     background-color: #E5E5F7;
@@ -40,6 +34,12 @@ body{
     background-image:  radial-gradient(#444CF7 0.7000000000000001px, transparent 0.7000000000000001px), radial-gradient(#444CF7 0.7000000000000001px, #E5E5F7 0.7000000000000001px);
     background-size: 28px 28px;
     background-position: 0 0,14px 14px;
+}
+
+.usuario{
+    font-family: 'Inter', sans-serif;
+    color: #808080;
+    padding: 9px;
 }
 
 .container{
