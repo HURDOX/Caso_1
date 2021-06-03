@@ -27,6 +27,12 @@
     margin-left: 50px;
 }
 
+.usuario{
+    font-family: 'Inter', sans-serif;
+    color: #808080;
+    padding: 9px;
+}
+
 body{
     font-family: 'Inter', sans-serif;
     background-color: #E5E5F7;
