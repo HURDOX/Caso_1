@@ -11,17 +11,114 @@
     <title>Sube tu obra</title>
     <link rel="shortcut icon" href="img/icono3.png" type="image/x-icon">
     <link rel="stylesheet" href="formulario.css">
+    <style>
+      label.error{
+          color: #fff;
+          font-style: italic;
+          line-height: 0;
+          font-size: 18px;
+      }
+      input.error{
+          border-color: #ff0000;
+      }
 
+      input.error:focus{
+          border-color: #ff0000;
+          box-shadow: 0 0 0 0.25rem rgb(255 0 0 / 25%);
+        }
+  </style>
 </head>
 <body>
-    <form action="">
-        <h2>Contacto</h2>
-        <input type="text" name="Nombre" placeholder="Nombre">
-        <input type="text" name="Correo" placeholder="Correo">
-        <input type="text" name="Telefono" placeholder="Telefono">
-        <input type="text" name="Asunto" placeholder="Asunto">
-        <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
-        <a href="contactanos.html"><input type="button" value="Enviar" id="boton"></a>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+                <img src="img/icono3.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                Grupo Zero
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactanos.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="inicio.html">Inicia sesion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <div class= "formu" >
+    <form action="contactanos.html" id="formulario">
+      <h2>Contacto</h2>
+        <div class="form-group">
+            <label for="nombre" class="form-label">Nombre: </label>
+            <input type="text" name="nombre" placeholder="Fernando Sepúlveda" class="form-control">
+        </div><br>
+        <div class="form-group">
+            <label for="email" class="form-label">Email: </label>
+            <input type="email" name="email" placeholder="Fernandos@gmail.com" class="form-control">
+        </div><br>
+        <div class="form-group">
+            <label for="numero" class="form-label">Numero de telefono: </label>
+            <input type="numero" name="numero" placeholder="978463741" class="form-control">
+        </div><br>
+        <div class="mb-3">
+            <label for="Comentario" class="form-label">Comentario </label>
+            <textarea class="form-control" name ="comentario" placeholder="Comentario" rows="3"></textarea>
+        </div>
+        <br>
+        <div class="col-12">
+            <button type="submit" class="btn">Enviar</button>
+        </div>
     </form>
+</div>
+<script>
+  $(document).ready(function(){
+      $("#formulario").validate({
+          rules: {
+              nombre: {
+                  required: true,
+                  minlength: 5
+              },
+              email: {
+                  required: true,
+                  email: true
+              },
+              numero: {
+                  minlength: 9
+              },
+              comentario: {
+                  required: true
+              }
+          },
+          messages: {
+              nombre: {
+                  required: "Por favor ingrese su nombre completo",
+                  minlength: "Debe ingresar al menos 5 caracteres"
+              },
+              email: {
+                  required: "Por favor ingrese su direccion de correo",
+                  email: "Por favor ingrese un correo válido"
+              },
+              numero: {
+                  minlength: "Ingrese 9 digitos por favor"
+              },
+              comentario: {
+                  required: "Porfavor ingrese algun comentario"
+              }
+          }
+      });
+  });
+</script>
 </body>
 </html>
