@@ -1,6 +1,6 @@
 body{
     background-image: url(https://i.pinimg.com/originals/0a/5d/c1/0a5dc1adf1e50513b23e3dbfa5e588d1.jpg);
-    background-size: 100vw 100vh;
+    background-size: 100vw 110vh;
     background-attachment: fixed;
     margin: 0;
     font-size: monospace;
@@ -48,6 +48,25 @@ input, text{
     font-size: 17px;
     border: 10px;
 }
+
+.button{
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    
+  }
+
+  .btn{
+    color: #fff;
+    background: #000;
+    font-size: 17px;
+  }
 
 #boton{
     background: #000000;
