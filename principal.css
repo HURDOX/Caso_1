@@ -92,6 +92,23 @@ a.cta1{
     text-decoration: none;
 }
 
+form input{
+    border-radius: 7px;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.buscar{
+    background-color: #444CF7;
+    color: #fff;
+}
+
 
 .about{
     display: grid;
