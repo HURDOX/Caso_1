@@ -75,9 +75,9 @@ body{
     margin: 25px 0;
 }
 
-.hero_cta{
+.hero_container_cta{
     display: inline-block;
-    background: var(--color-btn);
+    background: #444cf7;
     color: #fff;
     padding: var(--padding-btn);
     text-align: center;
