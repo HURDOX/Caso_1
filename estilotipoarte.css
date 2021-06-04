@@ -87,7 +87,7 @@ body{
 .hero_img{
     width: 95%;
 }
-
+/*
 a.cta{
     color: #fff;
     background: #444cf7;
@@ -95,7 +95,7 @@ a.cta{
     text-align: center;
     text-decoration: none;
 }
-
+*/
 .hero::after{
     content: "";
     display: block;
