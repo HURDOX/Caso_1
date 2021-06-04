@@ -84,6 +84,20 @@ body{
     text-decoration: none;
 }
 
+a.cta{
+    color: #fff;
+    background: #444cf7;
+    padding: 25px 10px;
+}
+
+a.cta1{
+    color: #444cf7;
+    background: #fff;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .hero_img{
     width: 95%;
 }
