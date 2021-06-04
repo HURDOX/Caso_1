@@ -74,12 +74,24 @@ body{
 
 .cta{
     display: inline-block;
-    background: var(--color-btn);
-    color: var(--text-btn);
-    padding: var(--padding-btn);
     text-align: center;
     text-decoration: none;
 }
+
+a.cta{
+    color: #fff;
+    font: 16px;
+    background: #444cf7;
+    padding: 25px 10px;
+}
+
+a.cta1{
+    color: #444cf7;
+    background: #fff;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
 
 .about{
     display: grid;
